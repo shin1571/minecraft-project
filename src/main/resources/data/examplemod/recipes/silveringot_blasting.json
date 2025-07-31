@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "examplemod:rawsilver"
+  },
+  "result": "examplemod:silveringot",
+  "experience": 5.35,
+  "cookingtime": 100
+}

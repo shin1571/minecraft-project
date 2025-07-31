@@ -1,0 +1,11 @@
+{"parent": "minecraft:block/cube","textures":
+{
+  "down": "examplemod:block/redwoodtop",
+  "north": "examplemod:block/redwood",
+  "east": "examplemod:block/redwood",
+  "west": "examplemod:block/redwood",
+  "up": "examplemod:block/redwoodtop",
+  "south": "examplemod:block/redwood",
+  "particle": ""
+}
+}

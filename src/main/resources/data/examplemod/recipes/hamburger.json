@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "E",
+    "O"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:tomato"
+    },
+    "E": {
+      "item": "examplemod:cheese"
+    },
+    "O": {
+      "item": "examplemod:patty"
+    }
+  },
+  "result": {
+    "item": "examplemod:hamburger",
+    "count": 1
+  }
+}

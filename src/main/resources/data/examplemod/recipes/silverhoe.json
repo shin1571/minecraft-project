@@ -1,0 +1,19 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"xx",
+" y",
+" y"
+],
+"key": {
+"x": {
+ "item": "examplemod:silveringot"
+ },
+"y": {
+"item": "minecraft:stick"
+}
+},
+"result": {
+"item": "examplemod:silverhoe"
+}
+}
