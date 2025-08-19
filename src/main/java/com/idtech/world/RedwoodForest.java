@@ -14,7 +14,7 @@ public class RedwoodForest {
     public static Biome INSTANCE = RedwoodForest(new MobSpawnSettings.Builder(),new BiomeGenerationSettings.Builder()).setRegistryName(BaseMod.MODID,"redwoodforest");
     public static Biome RedwoodForest(MobSpawnSettings.Builder mobSpawn,BiomeGenerationSettings.Builder builder){
 
-        BiomeDefaultFeatures.addBirchTrees(builder);
+
 
         BiomeDefaultFeatures.addCommonBerryBushes(builder);
         BiomeDefaultFeatures.addBlueIce(builder);

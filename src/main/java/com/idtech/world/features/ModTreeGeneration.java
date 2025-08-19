@@ -21,11 +21,8 @@ public class ModTreeGeneration {
         Set<BiomeDictionary.Type> types = BiomeDictionary.getTypes(key);
        // if(types.contains(BiomeDictionary.Type.PLAINS)){
         BaseMod.LOGGER.info(types);
-        if(event.getName().equals("examplemod:redwoodforest")){
-            BaseMod.LOGGER.info("aaaaaaaaaaaaaaaaaaaaaaaaaahh");
-            BaseMod.LOGGER.info("aaaaaaaaaaaaaaaaaaaaaaaaaahh");
-            BaseMod.LOGGER.info("aaaaaaaaaaaaaaaaaaaaaaaaaahh");
-            BaseMod.LOGGER.info("aaaaaaaaaaaaaaaaaaaaaaaaaahh");
+        if(isLoadingBiome(event, "redwoodforest")){
+
                 List<Holder<PlacedFeature>> base =
                         event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
@@ -33,5 +30,9 @@ public class ModTreeGeneration {
 
         }
 
+    }
+
+    private static boolean isLoadingBiome(BiomeLoadingEvent event, String biomeName){
+        return event.getName().toString().equals(BaseMod.MODID + ":" + biomeName);
     }
 }
