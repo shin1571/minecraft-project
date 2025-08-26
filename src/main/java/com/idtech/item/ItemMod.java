@@ -69,7 +69,8 @@ public class ItemMod {
     public static final RegistryObject<Item> SPRITE = ITEMS.register("sprite", () ->
             new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).food(SPRITE_PROPS)));
 
-
+    public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).food(FoodMod.ICE_CREAM)));
 
     public static void register(IEventBus eventBus ) {
 
